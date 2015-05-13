@@ -10,20 +10,22 @@
 
 @interface RootViewController ()
 
+
 @end
 
 @implementation RootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *string = @"test";
-    NSAttributedString *attributedString = [[NSAttributedString alloc] initWithString:string];
-    //attributes:<#(NSDictionary *)#>]
-    NSLog(@"This is your test: %@", attributedString);
+
+
+
 }
 
 -(IBAction)prepareForUnwindCoded:(UIStoryboardSegue *)segue {
-
 }
+
+
+
 
 @end
